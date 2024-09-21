@@ -1,0 +1,26 @@
+1- sudo useradd -c "Islam Askar" islam
+   sudo passwd islam
+
+2- sudo useradd -c "Bad User" baduser
+   sudo passwd baduser
+
+3- sudo groupadd -g 30000 pgroup
+
+4- sudo groupadd badgroup
+
+5- sudo usermod -aG pgroup islam
+
+6- sudo passwd islam
+
+7- sudo chage -M 30 islam
+
+8- sudo passwd -l baduser
+
+9- sudo userdel baduser
+
+10- sudo groupdel badgroup
+
+13- cd ~
+    mkdir myteam
+    chmod 400 myteam
+
